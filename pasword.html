@@ -1,0 +1,185 @@
+<!doctype html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- css -->
+    <link rel="stylesheet" href="./assets/css/style2.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!-- <link rel="stylesheet" href="./assets/css/coba.css"> -->
+    <link rel="stylesheet" href="./assets/css/footer2.css">
+                    <!-- google fonts -->
+                    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&family=Raleway:wght@300;400;500;700;900&display=swap" rel="stylesheet">
+                <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@600;700&family=Marck+Script&family=Montserrat:ital,wght@0,400;0,500;0,600;0,700;1,600&family=Raleway:wght@300;400;500;700;900&display=swap" rel="stylesheet">
+                <link href="https://fonts.googleapis.com/css2?family=Arizonia&family=Dancing+Script:wght@600;700&family=Marck+Script&family=Montserrat:ital,wght@0,400;0,500;0,600;0,700;1,600&family=Patrick+Hand+SC&family=Raleway:wght@300;400;500;700;900&display=swap" rel="stylesheet">
+                <link href="https://fonts.googleapis.com/css2?family=Arizonia&family=Dancing+Script:wght@600;700&family=Homemade+Apple&family=Marck+Script&family=Montserrat:ital,wght@0,400;0,500;0,600;0,700;1,600&family=Patrick+Hand+SC&family=Raleway:wght@300;400;500;700;900&display=swap" rel="stylesheet">
+                <link href="https://fonts.googleapis.com/css2?family=Arizonia&family=Dancing+Script:wght@600;700&family=Gentium+Book+Plus:ital,wght@0,400;0,700;1,700&family=Homemade+Apple&family=Marck+Script&family=Montserrat:ital,wght@0,400;0,500;0,600;0,700;1,600&family=Patrick+Hand+SC&family=Raleway:wght@300;400;500;700;900&display=swap" rel="stylesheet">
+
+                <!-- fontawesome -->
+                <script src="https://kit.fontawesome.com/dbed6b6114.js" crossorigin="anonymous"></script>
+                <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <style>
+        /* loading css */
+.loading-container {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: fixed;
+  background-color: #000;
+  z-index: 9999999;
+}
+.container2 {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.loader {
+  width: 500px;
+  height: 500px;
+  border: 0px solid white;
+  position: absolute;
+}
+</style>
+<!-- script loading menggunakan ajak awal -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.0/jquery.min.js"></script>
+    <script>$(window).on("load", function () {
+        $(".loading-container").fadeOut(5000);
+      });
+      </script>
+      <!-- script loading akhir -->
+</head>
+<body>
+      <!-- loading awal-->
+      <div class="loading-container">
+    <div class="container2">
+        <img src="./assets/img/loader.gif" class="loader" alt="">
+    </div>
+    </div>
+  <!-- loading akhir -->
+  <nav>
+        <div class="container nav-wrapper">
+            <div class="brand">
+               <img src="./assets/img/logo_departemen_agama.png" alt="">
+                <span><strong>KANTOR WILAYAH<br>KEMENTRIAN AGAMA <br> KARAWANG</strong></span>
+            </div>
+            <div class="hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+            <ul class="nav-list">
+                <li class="active">
+                    <a href="index.html">Home</a>
+                </li>
+                <li><a href="berita.html">Berita</a></li>
+                <li>
+                    <a href="layanan.html">layanan</a>
+                    <!-- <ul class="dropdown-list">
+                        <li><a href="#">SEO optimisation</a></li>
+                        <li><a href="#">Digital marketing</a></li>
+                        <li><a href="#">Web development</a></li>
+                        <li><a href="#">Web design</a></li>
+                        <li><a href="#">Software development</a></li>
+                        <li><a href="#">Branding</a></li>
+                        <li><a href="#">Content writing</a></li>
+                    </ul> -->
+                </li>
+                <li><a href="kontak.html">Kontak</a></li>
+                <li>
+                    
+                </li>
+                <li>
+                    <button class="btn">Login</button>
+                </li>
+            </ul>
+        </div>
+    </nav>
+    <header class="bagian1">
+    <main>
+      <section class="welcome1">
+        <div class="welcome2">
+          <div>
+          <h1> Kemenag Karawang</h1>
+          <h2>(Moderasi agama & Absensi Kinerja Guru)</h2>
+          </div>
+        </div>
+      </section>
+    </main>
+    <main>
+    <form action="" class="formLogin">
+      <img src="./assets/img/kemenag.jpeg" alt="">
+      <h2>Login</h2>
+      <div class="input-group">
+        <input type="text" name="loginUser" id="loginUser" required>
+        <label for="loginUser">Username</label>
+      </div>
+      <div class="input-group">
+        <input type="password" name="loginPassword" id="loginPassword" required>
+        <label for="loginPassword">Password</label>
+      </div>
+      <input type="submit" value="Login" class="submit-btn">
+      <a href="login.php" class="forgot-pw">Buat Akun</a>
+      <a href="pasword.php" class="forgot-pw">Lupa Password</a>
+    </form>
+    </div>
+    </div>
+    </section>
+    </header>
+
+<!-- footer -->
+<div class="cover">
+<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3965.7082997593943!2d107.30034607355556!3d-6.302005861673708!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e6977e86cfea273%3A0xc7878bb42a30e610!2sKantor%20Kementerian%20Agama%20Kab.%20Karawang!5e0!3m2!1sid!2sid!4v1713667411546!5m2!1sid!2sid" width="80%" height="450" scrolling="no" marginwidth="0" marginheight="0" frameborder="0"></iframe>
+    </div>
+    <footer>
+    <div class="container">
+      <div class="sec aboutus">
+        <h2>lynrYunga</h2>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptate quae placeat, ducimus, repellat quis pariatur deleniti iste asperiores architecto beatae quidem culpa quos laborum, rem magnam numquam aspernatur. Facere, explicabo?</p>
+        <ul class="sci">
+          <li><a href="#"><i class="fa-brands fa-facebook-f"></i></a></li>
+          <li><a href="#"><i class="fa-brands fa-twitter"></i></a></li>
+          <li><a href="#"><i class="fa-brands fa-instagram"></i></a></li>
+          <li><a href="#"><i class="fa-brands fa-youtube"></i></a></li>
+        </ul>
+      </div>
+      <div class="sec quicklinks">
+        <h2>Soporte</h2>
+        <ul>
+          <li><a href="#">FAQ</a></li>
+          <li><a href="#">Politica de Privacidad</a></li>
+          <li><a href="#">Ayuda</a></li>
+          <li><a href="#">Contacto</a></li>
+        </ul>
+      </div>
+      <div class="sec quicklinks">
+        <h2>Compras</h2>
+        <ul>
+          <li><a href="#">Hombre</a></li>
+          <li><a href="#">Mujer</a></li>
+          <li><a href="#">Niños</a></li>
+          <li><a href="#">Articulos</a></li>
+        </ul>
+      </div>
+      <div class="sec contact">
+        <h2>Contáctame</h2>
+        <ul class="info">
+          <li>
+            <span><i class="fa-solid fa-phone"></i></span><p><a href="tel:984885536">984885536</a></p>
+          </li>
+          <li>
+            <span><i class="fa-solid fa-envelope"></i></span><p><a href="email:lynrYunga@gmail.com">lynrYunga@gmail.com</a></p>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </footer>
+  <div class="copyrightText">
+    <p>Copyright <a href="https://www.instagram.com/pheonix_1200/?hl=en" style="text-decoration: none; color: ">©pheonix_1200</a> All Rights Reserved</p>
+  </div>
+  <!-- footer akhir -->
+    <script src="./script.js"></script>
+</body>
+</html>
